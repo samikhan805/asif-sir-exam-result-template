@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="input-div">
+                <img class="logo" src="logo.png">
+                <h1 class="heading">Template Result Showing Design</h1>
+                <input class="roll" type="text" placeholder="Batch roll">
+                <div class="justify-div">
+                    <p><span class="num-1"></span> + <span class="num-2"></span> = <input class="sum-res" type="number"></p>
+                </div>
+                <div class="search-div">
+                    <button>View Result</button>
+                </div>
+            </div>
+
+            <!-- Result div -->
+            <div class="result-div">
+                <div class="content">
+
+                </div>
+                <div class="search-again-div">
+                    <button class="refresh">Search again</button>
+                    <button class="print">Print</button>
+                </div>
+            </div>
+        </div>
+        <!-- Notification -->
+        <div class="notification-div">
+            <p>Result occured error. Check these :</p>
+            <ul>
+                <li>You may entered wrong roll or kept the field blank</li>
+                <li>You may entered wrong sum or kept the field blank</li>
+                <li>You may kept blank the two fields</li>
+            </ul>
+            <button class="close">Close</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
