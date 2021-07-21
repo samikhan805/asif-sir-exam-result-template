@@ -704,7 +704,6 @@ function main() {
             Print.style.display = 'inline'
 
             input.disabled = true
-            input.value = ''
             btn.disabled = true
             btn.style.background = '#967969'
             isFound = true
